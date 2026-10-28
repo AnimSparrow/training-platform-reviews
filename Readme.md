@@ -52,26 +52,27 @@ There is no value-for-money dimension. Most of these platforms are sold to organ
 
 ## All Reviews
 
-| Platform | Review | Scenario | Mode | Date | Score |
-|---|---|---|---|---|:---:|
-| TryHackMe Live Breach | [Part 1: First Impression](tryhackme-live-breach/part-1-first-impression/) | Dream Job (Hard) | Guided | Oct 2026 | **8.67** |
-| TryHackMe Live Breach | Part 2: Realism Mode | | Realism | coming soon | |
+| Platform | Review type | Date | Score |
+|---|---|---|:---:|
+| TryHackMe Live Breach | [First Impression](reviews/01-tryhackme-live-breach-first-impression.md) | Oct 2026 | **8.67** |
 
-More platforms coming soon.
+More reviews coming soon.
+
+**Review types:**
+- **First Impression:** one session, what stood out and what got in the way.
+- **Deep Dive:** a closer look after more time on the platform, with more detail on specific features.
 
 ## Repo Structure
 
 ```
 training-platform-reviews/
-├── README.md                          ← you are here
-├── assets/                            ← shared banner and buttons
-└── <platform>/
-    └── <review>/
-        ├── README.md
-        └── assets/                    ← banner.svg, scorecard.svg
+├── README.md                                        ← you are here
+├── assets/
+│   ├── hero-banner.svg, more_reviews.svg            ← shared
+│   └── NN-<platform>-<review-type>-banner.svg       ← per review, plus -scorecard.svg
+└── reviews/
+    └── NN-<platform>-<review-type>.md               ← one file per review, numbered in order
 ```
-
-One folder per platform, one subfolder per review, so a platform can have several sessions reviewed over time.
 
 ---
 
