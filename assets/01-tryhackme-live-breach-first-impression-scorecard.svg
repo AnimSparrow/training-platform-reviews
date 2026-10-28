@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 248" width="780" height="248" role="img" aria-label="B.R.E.A.C.H. scorecard, overall 8.67 out of 10">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a0633"/><stop offset="100%" stop-color="#3a0a5e"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00F0FF"/><stop offset="100%" stop-color="#00B8D4"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <style>text{font-family:ui-monospace,'SF Mono',Menlo,'Cascadia Code',Consolas,monospace}</style>
+
+  <rect x="0.5" y="0.5" width="779" height="247" rx="16" fill="url(#bg)" stroke="#FF2A6D" stroke-opacity="0.30"/>
+
+  <!-- left block -->
+  <g transform="translate(28,28)">
+    <rect x="0" y="0" width="150" height="20" rx="5" fill="#00F0FF" fill-opacity="0.10" stroke="#00F0FF" stroke-opacity="0.5"/>
+    <text x="75" y="14" fill="#00F0FF" font-size="10.5" font-weight="700" letter-spacing="2" text-anchor="middle">OVERALL SCORE</text>
+  </g>
+  <text x="28" y="104" fill="url(#hero)" font-size="56" font-weight="700" filter="url(#glow)">8.67</text>
+  <text x="172" y="104" fill="#A479C4" font-size="16" font-weight="600" text-anchor="end">/10</text>
+  <text x="28" y="140" fill="#F8E8FF" fill-opacity="0.6" font-size="10" font-weight="700" letter-spacing="1.5">WEIGHTED</text>
+  <text x="28" y="160" fill="#FF2A6D" font-size="10" font-weight="700" letter-spacing="1.5">HIGH ×6</text>
+  <text x="28" y="178" fill="#A479C4" font-size="10" font-weight="700" letter-spacing="1.5">MEDIUM ×2</text>
+  <text x="28" y="196" fill="#00F0FF" font-size="10" font-weight="700" letter-spacing="1.5">LOW ×1</text>
+
+  <line x1="216" y1="24" x2="216" y2="226" stroke="#FF2A6D" stroke-opacity="0.25"/>
+
+  <!-- right block -->
+  <text x="240" y="34" fill="#F8E8FF" fill-opacity="0.6" font-size="10" font-weight="700" letter-spacing="2">B.R.E.A.C.H. SCORE</text>
+  <g transform="translate(240,52)" font-size="9.5" font-weight="700">
+    <g transform="translate(0,0)">
+      <text x="0" y="8" fill="#FF2A6D">B</text><text x="18" y="8" fill="#F8E8FF">Believability</text>
+      <rect x="140" y="1" width="260" height="7" rx="3.5" fill="#2a0e4a"/><rect x="140" y="1" width="208" height="7" rx="3.5" fill="#FF2A6D"/>
+      <text x="416" y="8" fill="#F8E8FF">8</text>
+    </g>
+    <g transform="translate(0,27)">
+      <text x="0" y="8" fill="#FF2A6D">R</text><text x="18" y="8" fill="#F8E8FF">Response</text>
+      <rect x="140" y="1" width="260" height="7" rx="3.5" fill="#2a0e4a"/><rect x="140" y="1" width="260" height="7" rx="3.5" fill="#FF2A6D"/>
+      <text x="416" y="8" fill="#F8E8FF">10</text>
+    </g>
+    <g transform="translate(0,54)">
+      <text x="0" y="8" fill="#A479C4">E</text><text x="18" y="8" fill="#F8E8FF">Ensemble</text>
+      <rect x="140" y="1" width="260" height="7" rx="3.5" fill="#2a0e4a"/><rect x="140" y="1" width="182" height="7" rx="3.5" fill="#A479C4"/>
+      <text x="416" y="8" fill="#F8E8FF">7</text>
+    </g>
+    <g transform="translate(0,81)">
+      <text x="0" y="8" fill="#00F0FF">A</text><text x="18" y="8" fill="#F8E8FF">Approachability</text>
+      <rect x="140" y="1" width="260" height="7" rx="3.5" fill="#2a0e4a"/><rect x="140" y="1" width="182" height="7" rx="3.5" fill="#00F0FF"/>
+      <text x="416" y="8" fill="#F8E8FF">7</text>
+    </g>
+    <g transform="translate(0,108)">
+      <text x="0" y="8" fill="#A479C4">C</text><text x="18" y="8" fill="#F8E8FF">Closure</text>
+      <rect x="140" y="1" width="260" height="7" rx="3.5" fill="#2a0e4a"/><rect x="140" y="1" width="234" height="7" rx="3.5" fill="#A479C4"/>
+      <text x="416" y="8" fill="#F8E8FF">9</text>
+    </g>
+    <g transform="translate(0,135)">
+      <text x="0" y="8" fill="#00F0FF">H</text><text x="18" y="8" fill="#F8E8FF">Hassle-free</text>
+      <rect x="140" y="1" width="260" height="7" rx="3.5" fill="#2a0e4a"/><rect x="140" y="1" width="234" height="7" rx="3.5" fill="#00F0FF"/>
+      <text x="416" y="8" fill="#F8E8FF">9</text>
+    </g>
+  </g>
+
+  <!-- legend -->
+  <g transform="translate(240,226)" font-size="9" font-weight="700" letter-spacing="1">
+    <rect x="0" y="-7" width="10" height="7" rx="2" fill="#FF2A6D"/><text x="16" y="0" fill="#F8E8FF" fill-opacity="0.75">HIGH ×6</text>
+    <rect x="96" y="-7" width="10" height="7" rx="2" fill="#A479C4"/><text x="112" y="0" fill="#F8E8FF" fill-opacity="0.75">MEDIUM ×2</text>
+    <rect x="208" y="-7" width="10" height="7" rx="2" fill="#00F0FF"/><text x="224" y="0" fill="#F8E8FF" fill-opacity="0.75">LOW ×1</text>
+  </g>
+</svg>
