@@ -58,11 +58,13 @@ Before the clock starts, you choose three things:
 
 - **The scenario:** each one is modelled on a real threat actor, with a difficulty level and a runtime.
 - **The mode:** *Guided* (hints and attack-chain reveals are available, but they are logged and lower your score) or *Realism* (no hints, no reveals, full score on the table).
-- **The toolset:** SIEM and EDR.
 
 <p align="center">
   <img src="../assets/01-tryhackme-live-breach-first-impression-mode.png" width="780" alt="Choosing between Guided and Realism mode">
 </p>
+  
+- **The toolset:** SIEM and EDR.
+
 
 <p align="center">
   <img src="../assets/01-tryhackme-live-breach-first-impression-tools.png" width="780" alt="Choosing the SIEM and EDR">
