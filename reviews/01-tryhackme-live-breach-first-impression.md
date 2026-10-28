@@ -15,7 +15,7 @@
 ## Overview
 
 > [!NOTE]
-> **TL;DR:** Live Breach is the closest thing to a real incident I have seen on a training platform. You don't answer questions. You investigate, contain and eradicate, and the platform watches what you actually do. Our team contained 100% of the attack with 11/11 eradication actions, zero hints and zero reveals, in 2h 45min out of 4h.
+> **TL;DR:** Live Breach is the closest thing to a real incident I have seen on a training platform. You don't answer questions. You investigate, contain and eradicate, and the platform watches what you actually do. Our team contained 100% of the attack with max/max eradication actions, 0/max hints and 0/max reveals, in 2h 45min out of 4h.
 
 <p align="center">
   <img src="../assets/01-tryhackme-live-breach-first-impression-scorecard.svg" width="780" alt="B.R.E.A.C.H. scorecard: overall 8.67 out of 10">
@@ -50,11 +50,23 @@ We didn't come into this cold. As a group, we have at least 50 live-fire exercis
 
 ## Terrain
 
+<p align="center">
+  <img src="../assets/01-tryhackme-live-breach-first-impression-scenario.png" width="780" alt="Scenario briefing screen: threat actor, difficulty and runtime">
+</p>
+
 Before the clock starts, you choose three things:
 
 - **The scenario:** each one is modelled on a real threat actor, with a difficulty level and a runtime.
 - **The mode:** *Guided* (hints and attack-chain reveals are available, but they are logged and lower your score) or *Realism* (no hints, no reveals, full score on the table).
 - **The toolset:** SIEM and EDR.
+
+<p align="center">
+  <img src="../assets/01-tryhackme-live-breach-first-impression-mode.png" width="780" alt="Choosing between Guided and Realism mode">
+</p>
+
+<p align="center">
+  <img src="../assets/01-tryhackme-live-breach-first-impression-tools.png" width="780" alt="Choosing the SIEM and EDR">
+</p>
 
 Then you land in a full corporate estate: several network segments, firewalls, servers, workstations, a backup zone and a security operations segment. Real telemetry flows into the SIEM and you have real access to the machines.
 
@@ -73,9 +85,17 @@ For a team of five or six this worked well. Nobody was idle, and nobody was dupl
 
 **The network map is the centrepiece.** It is interactive. It shows how traffic flows between segments, lets you click any host for its details, connect to it and take actions on it. You can also see which teammate is working on which host, which helps a lot with coordination.
 
+<p align="center">
+  <img src="../assets/01-tryhackme-live-breach-first-impression-network-map.png" width="560" alt="Interactive network map with all segments">
+</p>
+
 **The shared timeline works like a team notebook.** Anyone can add a finding with a timestamp, host and description, and it syncs to everyone instantly, sorted by time.
 
 **Your actions are detected automatically and instantly.** Delete a malicious file, disable an account or isolate a host, and the platform registers it as it happens. No "refresh detections" button and no "submit answer" step. Guided mode groups the expected actions into categories (files, accounts, persistence, host isolation), so you can see where you still have gaps without being told what they are.
+
+<p align="center">
+  <img src="../assets/01-tryhackme-live-breach-first-impression-eradication.png" width="780" alt="Containment and eradication tracker early in the session, completed actions blurred">
+</p>
 
 **You can't brute-force your way through.** Many platforms in this space give you multiple-choice answers, so you can poke at options until something sticks. Here there is nothing to guess. You either find it and act on it, or you don't. That keeps analysts honest.
 
@@ -109,7 +129,7 @@ The gap analysis was the most valuable part. It pointed out one link in the atta
 
 ## B.R.E.A.C.H. Score
 
-S.P.A.R.R.O.W. is built for certifications, so it doesn't fit a team exercise. B.R.E.A.C.H. keeps the same weighting logic but measures what matters in a live incident simulation. Full definitions are in the [methodology](../README.md#methodology-breach-score).
+S.P.A.R.R.O.W. is built for certifications, so it doesn't fit a team exercise. B.R.E.A.C.H. keeps the same weighting logic but measures what matters in a live incident simulation. Full definitions are in the [methodology](../Readme.md#methodology-breach-score).
 
 | | Dimension | Weight | Score | Why |
 |:---:|---|:---:|:---:|---|
@@ -154,12 +174,16 @@ Live Breach moves training from "answer the question" to "handle the incident". 
 
 ## Our Result
 
+<p align="center">
+  <img src="../assets/01-tryhackme-live-breach-first-impression-result.png" width="780" alt="Final result: 100% of the attack contained, no hints and no reveals">
+</p>
+
 | | |
 |---|---|
 | Attack contained | 100% |
-| Eradication actions | 11 / 11 |
-| Eradication hints used | 0 / 11 |
-| Attack-chain stages revealed | 0 / 23 |
+| Eradication actions | max / max |
+| Eradication hints used | 0 / max |
+| Attack-chain stages revealed | 0 / max |
 | Time used | 2h 45min of 4h |
 | Timeline submissions | 19 |
 | Overall feel | Real |
@@ -172,12 +196,12 @@ We plan to run more scenarios with the same team, this time in **Realism mode**.
 
 **B**elievability · **R**esponse mechanics · **E**nsemble · **A**pproachability · **C**losure · **H**assle-free. Weights: High ×6 (B, R), Medium ×2 (E, C), Low ×1 (A, H).
 
-Full definitions and the reasoning behind the weights are in the [B.R.E.A.C.H. methodology](../README.md#methodology-breach-score).
+Full definitions and the reasoning behind the weights are in the [B.R.E.A.C.H. methodology](../Readme.md#methodology-breach-score).
 
 ---
 
 <p align="center">
-  <a href="../README.md">
+  <a href="../Readme.md">
     <img src="../assets/more_reviews.svg" width="470" alt="More platform reviews">
   </a>
 </p>
