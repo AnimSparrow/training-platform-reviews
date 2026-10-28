@@ -46,7 +46,7 @@ Joanna Duffy and Dan Mayple from TryHackMe organised a session for a six-person 
 
 We had full freedom to pick the date, the scenario and how we approached it. After sharing our preferences, we went with Dan's suggestion: **Dream Job**, rated Hard, with a 4-hour runtime. Most of us had only used TryHackMe lightly, so we chose **Guided mode** to get a proper introduction. For tooling we picked **Microsoft Sentinel** as the SIEM and **Microsoft Defender for Endpoint** as the EDR.
 
-We didn't come into this cold. As a group, we have at least 50 live-fire exercises behind us. Between us, our baseline includes platforms such as Darktrace, RangeForce, Immersive Labs and Cyberbit. So we know how these sessions usually run, where they tend to cut corners and what good looks like. That background shaped both how we approached Dream Job and how we judged Live Breach. When we say something stood out, it's in comparison with a fair number of similar exercises, not a first impression in the literal sense.
+We didn't come into this cold. As a group, we have at least 50 live-fire exercises behind us. Between us, our baseline includes platforms such as RangeForce, Immersive Labs and Cyberbit. So we know how these sessions usually run, where they tend to cut corners and what good looks like. That background shaped both how we approached Dream Job and how we judged Live Breach. When we say something stood out, it's in comparison with a fair number of similar exercises, not a first impression in the literal sense.
 
 ## Terrain
 
