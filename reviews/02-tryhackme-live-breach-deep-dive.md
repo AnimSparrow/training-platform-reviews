@@ -113,6 +113,10 @@ If you are a team lead, plan Live Breach for groups of three or four and run the
 
 Our time to the first containment action actually got longer in Realism mode (around 34 and 49 minutes, against 13 minutes in the solo Guided run). That was deliberate: with no reveals, we wanted the full scope before touching anything, so that the attacker couldn't move once we started. It paid off: in the last session every containment action was correct the first time.
 
+<p align="center">
+  <img src="../assets/02-tryhackme-live-breach-deep-all-scenarios.png" width="780" alt="All Scenarios completed">
+</p>
+
 ## Friction Points
 
 > [!NOTE]
