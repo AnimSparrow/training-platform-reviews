@@ -192,7 +192,7 @@ Live Breach moves training from "answer the question" to "handle the incident". 
 
 ## What's Next
 
-We plan to run more scenarios with the same team, this time in **Realism mode**. A follow-up review may follow.
+The follow-up is out: [Deep Dive](02-tryhackme-live-breach-deep-dive.md), covering four scenarios in Guided and Realism mode.
 
 ## Methodology
 
