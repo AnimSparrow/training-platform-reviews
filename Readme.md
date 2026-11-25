@@ -5,7 +5,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/FORMAT-After_Action_Reports-1a0633?style=for-the-badge&labelColor=FF2A6D">
   <img src="https://img.shields.io/badge/SCALE-B.R.E.A.C.H.-1a0633?style=for-the-badge&labelColor=A479C4">
-  <img src="https://img.shields.io/badge/REVIEWS-1-1a0633?style=for-the-badge&labelColor=00F0FF">
+  <img src="https://img.shields.io/badge/REVIEWS-2-1a0633?style=for-the-badge&labelColor=00F0FF">
 </p>
 
 # Training Platform Reviews
@@ -55,6 +55,7 @@ There is no value-for-money dimension. Most of these platforms are sold to organ
 | Platform | Review type | Date | Score |
 |---|---|---|:---:|
 | TryHackMe Live Breach | [First Impression](reviews/01-tryhackme-live-breach-first-impression.md) | Oct 2026 | **8.67** |
+| TryHackMe Live Breach | [Deep Dive](reviews/02-tryhackme-live-breach-deep-dive.md) | Nov 2026 | **7.44** |
 
 More reviews coming soon.
 
@@ -69,7 +70,7 @@ training-platform-reviews/
 ├── README.md                                        ← you are here
 ├── assets/
 │   ├── hero-banner.svg, more_reviews.svg            ← shared
-│   └── NN-<platform>-<review-type>-banner.svg       ← per review, plus -scorecard.svg
+│   └── NN-<platform>-<review-type>-banner.svg|.png  ← per review, plus -scorecard.svg and screenshots
 └── reviews/
     └── NN-<platform>-<review-type>.md               ← one file per review, numbered in order
 ```
