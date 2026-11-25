@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/02-tryhackme-live-breach-deep-dive-banner.png" width="900" alt="Live Breach: Deep Dive">
+  <img src="../assets/02-tryhackme-live-breach-deep-dive-banner.svg" width="900" alt="Live Breach: Deep Dive">
 </p>
 
 <p align="center">
